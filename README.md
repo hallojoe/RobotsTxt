@@ -10,11 +10,11 @@ Load some robots.txt:
 
     string robotsTxt = "...";
 
-Instatiate an document:
+Create document:
 
     IDocument document = new Document(robotsTxt);
 
-Or instantiate with Parse:
+Or create with Parse:
 
     IDocument document = Document.Parse(robotsTxt);
 
